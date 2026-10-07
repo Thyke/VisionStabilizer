@@ -1,0 +1,15 @@
+{
+  "FileVersion": 3,
+  "Version": 10000,
+  "VersionName": "1.0.0-source",
+  "FriendlyName": "Vision Stabilizer",
+  "Description": "Native translation-only persistent virtual-bone POV stabilization for true-first-person characters.",
+  "Category": "Animation",
+  "EngineVersion": "5.8.0",
+  "CanContainContent": true,
+  "Installed": false,
+  "Modules": [
+    { "Name": "VisionStabilizer", "Type": "Runtime", "LoadingPhase": "PreDefault" },
+    { "Name": "VisionStabilizerEditor", "Type": "UncookedOnly", "LoadingPhase": "PreDefault" }
+  ]
+}
